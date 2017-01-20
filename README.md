@@ -19,6 +19,6 @@ RewriteRule ^/api/(.*)$ /mAPI.class.php?r=$1 [L,QSA]
 </IfModule>
 ```
 ## Usage
-Create a new collection of questions from specific category(optional) ```/api/new/[category]```
+Create a new collection of questions. Category is optional, leave it blank for all categories.  ```/api/new/[category]```
 
-Get a single question from the collection from category(optional) ```/api/questions/[collection_id]/[category]```
+Get a single question from the collection. Category is optional, leave it blank for all categories.  ```/api/questions/[collection_id]/[category]```
